@@ -11,8 +11,8 @@ export default function Python() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-blue-100 dark:bg-blue-900 rounded-xl shadow p-6 border-l-4 border-blue-600">
-                    <h2 className="text-xl font-semibold mb-2 text-blue-600">Certificados Automáticos</h2>
-                    <p className="text-gray-500 mb-4">Este projeto tem como objetivo automatizar a geração de certificados personalizados para os participantes de eventos ou cursos. Ele foi desenvolvido em
+                    <h2 className="text-xl font-semibold mb-2 ">Certificados Automáticos</h2>
+                    <p className="text-gray-400 mb-4">Este projeto tem como objetivo automatizar a geração de certificados personalizados para os participantes de eventos ou cursos. Ele foi desenvolvido em
                         Python e pode ser facilmente adaptado para diferentes tipos de certificados.
                         <li>Pillow (para manipulação de imagens)</li>
                         <li>ReportLab (para geração de PDFs)</li>
@@ -27,8 +27,8 @@ export default function Python() {
                     </a>
                 </div>
                 <div className="bg-blue-100 dark:bg-blue-900 rounded-xl shadow p-6 border-l-4 border-blue-600">
-                    <h2 className="text-xl font-semibold mb-2 text-blue-600">Aplicativo de Cadastro de Clientes - PYSQL</h2>
-                    <p className="text-gray-500 mb-4">Sistema simples de cadastro de clientes com interface gráfica, desenvolvido em Python com tkinter e persistência em banco de dados SQLite
+                    <h2 className="text-xl font-semibold mb-2 ">Aplicativo de Cadastro de Clientes - PYSQL</h2>
+                    <p className="text-gray-400 mb-4">Sistema simples de cadastro de clientes com interface gráfica, desenvolvido em Python com tkinter e persistência em banco de dados SQLite
 
                     </p>
                     <a
@@ -41,8 +41,8 @@ export default function Python() {
                     </a>
                 </div>
                 <div className="bg-blue-100 dark:bg-blue-900 rounded-xl shadow p-6 border-l-4 border-blue-600">
-                    <h2 className="text-xl font-semibold mb-2 text-blue-600">Automação de Cadastro de Alunos com PyAutoGUI</h2>
-                    <p className="text-gray-500 mb-4">Este projeto utiliza automação com Python e a biblioteca
+                    <h2 className="text-xl font-semibold mb-2 ">Automação de Cadastro de Alunos com PyAutoGUI</h2>
+                    <p className="text-gray-400 mb-4">Este projeto utiliza automação com Python e a biblioteca
                         PyAutoGUI para preencher automaticamente formulários web a partir de uma base de dados em CSV. A automação simula ações humanas como clique, escrita e rolagem, acessando uma página da web para cadastrar alunos.
                     </p>
                     <a
@@ -56,8 +56,8 @@ export default function Python() {
                 </div>
 
                    <div className="bg-blue-100 dark:bg-blue-900 rounded-xl shadow p-6 border-l-4 border-blue-600">
-                    <h2 className="text-xl font-semibold mb-2 text-blue-600">Visualização, criação de redes neurais</h2>
-                    <p className="text-gray-500 mb-4">Este projeto utiliza automação com Python para
+                    <h2 className="text-xl font-semibold mb-2 ">Visualização, criação de redes neurais</h2>
+                    <p className="text-gray-400 mb-4">Este projeto utiliza automação com Python para
                         Visualização criação de redes neurais, Problema das Rainhas no mesmo Tabuleiro efunções_formalisar
                     </p>
                     <a
@@ -71,6 +71,35 @@ export default function Python() {
                 </div>
 
             </div>
+                  <br />
+      <section className="py-10 bg-white dark:bg-gray-800 rounded-2xl shadow-lg text-left max-w-3xl mx-auto px-6">
+        <h2 className="text-2xl font-bold mb-6 text-indigo-600 text-center">
+          Competências Técnicas <br /> <small className="text-sm">(3 anos de experiência acadêmica e projetos pessoais)</small>
+          
+        </h2>
+
+        <div className="space-y-6 text-gray-700 dark:text-gray-300">
+          <div>
+            <h3 className="font-semibold text-lg mb-2 text-indigo-600">Linguagens</h3>
+            <p>Python, SQL, C#, PHP, JavaScript</p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg mb-2 text-indigo-600">Frameworks, Tecnologias  & Bibliotecas</h3>
+            <p>Flask, FastAPI, Tkinter, PyQt, Requests, SQLAlchemy, OpenCV, Pillow, PyAutoGUI</p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg mb-2 text-indigo-600">Conceitos</h3>
+            <p>POO, MVC, CRUD, APIs REST, Testes Unitários, Desenvolvimento Web, Automação de Processos</p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-lg mb-2 text-indigo-600">Ferramentas</h3>
+            <p>Git/GitHub, Insomnia, MySQL, VS Code, PyCharm, Virtualenv</p>
+          </div>
+        </div>
+      </section>
         </div>
     );
 }

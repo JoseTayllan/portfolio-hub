@@ -4,15 +4,15 @@ import { FaGithub } from "react-icons/fa";
 export default function CSharp() {
     return (
         <div className="text-center">
-            <h1 className="text-3xl font-bold mb-6">Portfólio - C# / .NET</h1>
+            <h1 className="text-3xl font-bold mb-6 text-purple-600">Portfólio - C# / .NET</h1>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-                Projetos desenvolvidos em <strong>C#</strong> e <strong>.NET</strong>, incluindo APIs, sistemas desktop e integrações.
+                Projetos desenvolvidos em <span className="text-purple-600 font-semibold"> <strong>C#</strong> e <strong>.NET</strong></span>, incluindo APIs, sistemas desktop e integrações.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6">
+                <div className="bg-white dark:bg-purple-800 rounded-xl shadow p-6">
                     <h2 className="text-xl font-semibold mb-2">TaskFlow – Gerenciador de Tarefas</h2>
-                    <p className="text-gray-500 mb-4">
+                    <p className="text-gray-400 mb-4">
                         TaskFlow é um sistema completo para gerenciamento de tarefas, com duas formas de uso:
 
                         API RESTful desenvolvida em ASP.NET Core
@@ -24,15 +24,15 @@ export default function CSharp() {
                         href="https://github.com/JoseTayllan/TaskFlow"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
                     >
                         <FaGithub /> Ver no GitHub
                     </a>
                 </div>
 
-                <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6">
+                <div className="bg-white dark:bg-purple-800 rounded-xl shadow p-6">
                     <h2 className="text-xl font-semibold mb-2">HPM Software - Guias Hospitalares</h2>
-                    <p className="text-gray-500 mb-4">
+                    <p className="text-gray-400 mb-4">
                         HPM Software - Preenchimento de Planilha do Google Sheets a partir de PDFs de Guias Hospitalares,
                         Tecnologias Utilizadas C# (.NET Windows Forms) - Desenvolvimento da aplicação desktop.
                         iTextSharp - Biblioteca para leitura e extração de texto dos arquivos PDF.
@@ -44,12 +44,43 @@ export default function CSharp() {
                         href="https://github.com/JoseTayllan/HPM-Software"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
                     >
                         <FaGithub /> Ver no GitHub
                     </a>
                 </div>
             </div>
+            <br />
+            <section className="py-10 bg-white dark:bg-gray-800 rounded-2xl shadow-lg text-left max-w-3xl mx-auto px-6">
+                <h2 className="text-2xl font-bold mb-6 text-purple-600 text-center">
+                    Competências Técnicas <br /> <small className="text-sm">(3 anos de experiência acadêmica e projetos pessoais)</small>
+
+                </h2>
+
+                <div className="space-y-6 text-purple-700 dark:text-gray-300">
+                    <div>
+                        <h3 className="font-semibold text-lg mb-2 text-purple-600">Linguagens</h3>
+                        <p> C#, JavaScript, PHP, SQL, Python</p>
+                    </div>
+
+                    <div>
+                        <h3 className="font-semibold text-lg mb-2 text-purple-600">Frameworks & Tecnologias</h3>
+                        <p>.NET, ASP.NET Core, Windos Forms, N8N, AWS - (iniciante)
+                            Blade, Bootstrap, Angular, React, Next.js</p>
+                    </div>
+
+                    <div>
+                        <h3 className="font-semibold text-lg mb-2 text-purple-600">Conceitos</h3>
+                        <p>POO, MVC, CRUD, APIs REST, Testes Unitários, Machine Learning - Intermediário/Avançado, Automação de Processos.</p>
+                    </div>
+
+                    <div>
+                        <h3 className="font-semibold text-lg mb-2 text-purple-600">Ferramentas</h3>
+                        <p>Git/GitHub, MySQL, VScode, Insomnia, Docker - (Iniciante) </p>
+                    </div>
+                </div>
+            </section>
+
         </div>
     );
 }

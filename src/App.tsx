@@ -27,10 +27,10 @@ import { FaMobileAlt } from "react-icons/fa";
 import NodeExpress from "./pages/NodeExpress";
 import CSharp from "./pages/CSharp";
 import Python from "./pages/Python";
-//import PhpMvc from "./pages/PhpMvc";
-//import ReactNext from "./pages/ReactNext";
+import PhpMvc from "./pages/PhpMvc";
+import ReactNext from "./pages/ReactNext";
 //import Automacao from "./pages/Automacao";
-//import IaMl from "./pages/IaMl";
+import IaMl from "./pages/IaMl";
 import Root from './../node_modules/react-router/dist/production/index-react-server-client-DKvU8YRr.d';
 
 function Home() {
@@ -66,16 +66,17 @@ function Home() {
           description="Interfaces modernas e performáticas."
           link="/react"
         />
+         <PortfolioCard
+          title="IA / Machine Learning, Python / TensorFlow / Jupyter Notebook"
+          description="Explorando modelos e inteligência artificial aplicada."
+          link="/ia"
+        />
         <PortfolioCard
           title="Automação (n8n / Scripts)"
           description="Fluxos automatizados e integrações inteligentes."
           link="/automacao"
         />
-        <PortfolioCard
-          title="IA / Machine Learning"
-          description="Explorando modelos e inteligência artificial aplicada."
-          link="/ia"
-        />
+       
       </div>
 
       {/* Seção de Skills */}
@@ -177,13 +178,16 @@ export default function App() {
           <Route path="/node" element={<NodeExpress />} />
           <Route path="/csharp" element={<CSharp />} />
           <Route path="/python" element={<Python />} />
+          <Route path="/php" element={<PhpMvc />} />
+          <Route path="/react" element={<ReactNext />} />
+          <Route path="/ia" element={<IaMl />} />
         </Routes>
         <Footer />
       </div>
     </Router>
   );
-  //<Route path="/php" element={<PhpMvc />} />
+ 
   //<Route path="/react" element={<ReactNext />} />
   //<Route path="/automacao" element={<Automacao />} />
-  // <Route path="/ia" element={<IaMl />} />
+  // 
 }
