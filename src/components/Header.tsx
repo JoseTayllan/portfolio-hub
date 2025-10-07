@@ -8,6 +8,7 @@ import {
   SiN8N,
   SiPython,
   SiTensorflow,
+  SiSharp,
 } from "react-icons/si";
 
 export default function Header() {
@@ -31,13 +32,14 @@ export default function Header() {
           </h1>
           <p className="text-lg md:text-2xl font-light">
             Desenvolvedor <span className="font-semibold">Backend</span> 
-            <span className="text-sm md:text-base"> (com experiência Full-Stack)</span>
+            <span className="text-sm md:text-base"> ( com experiência Full-Stack)</span>
           </p>
-          <p className="mt-2 text-sm md:text-lg opacity-80 leading-relaxed max-w-xl">
-            Especialista em Node.js, Express, PHP MVC e banco de dados.  
-            Aberto a atuar em Frontend, Automação (n8n) e novas áreas como 
-            Inteligência Artificial e Machine Learning.
-          </p>
+            <p className="mt-2 text-sm md:text-lg opacity-80 leading-relaxed max-w-xl">
+              Desenvolvedor <span className="font-semibold">Backend</span> apaixonado por tecnologia, com experiência em <span className="font-semibold">C# .NET, Python, PHP, Node.js, TypeScript</span> e bancos de dados | SQL | NoSql. Também atuo como <span className="font-semibold">Full Stack</span>, desenvolvendo aplicações web e mobile com <span className="font-semibold">React.js | Next.js | Angular | Laravel</span> e <span className="font-semibold">React Native</span>.
+              Minha formação teve forte foco em <span className="font-semibold">Inteligência Artificial</span> e <span className="font-semibold">Machine Learning</span>, áreas nas quais desenvolvi diversos projetos práticos e acadêmicos, aplicando técnicas modernas e frameworks como <span className="font-semibold">TensorFlow</span> e <span className="font-semibold">Python</span>.
+              Busco minha primeira oportunidade como <span className="font-semibold">Dev Júnior</span>, onde possa contribuir, aprender e crescer profissionalmente.
+              Tenho projetos publicados no GitHub que demonstram minha capacidade de trabalhar tanto no back-end quanto no front-end, além de interesse em automação (<span className="font-semibold">n8n</span>), inteligência artificial e machine learning.
+            </p>
 
           {/* Barra de stacks */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6 text-3xl">
@@ -49,6 +51,7 @@ export default function Header() {
             <SiN8N className="text-pink-400" title="n8n" />
             <SiPython className="text-yellow-400" title="Python" />
             <SiTensorflow className="text-orange-400" title="Machine Learning" />
+            <SiSharp className="text-purple-400" title="C# .NET" />
           </div>
         </div>
       </div>
