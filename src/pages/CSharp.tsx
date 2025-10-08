@@ -49,6 +49,24 @@ export default function CSharp() {
                         <FaGithub /> Ver no GitHub
                     </a>
                 </div>
+
+                <div className="bg-white dark:bg-purple-800 rounded-xl shadow p-6">
+                    <h2 className="text-xl font-semibold mb-2">Biblioteca Online API</h2>
+                    <p className="text-gray-400 mb-4">
+                        API REST para gerenciamento de livros, autores e empréstimos
+                        Desenvolvida com ASP.NET Core 8 e Entity Framework Core, com documentação interativa via Swagger.
+                    </p>
+                    <a
+                        href="https://github.com/JoseTayllan/BibliotecaAPI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+                    >
+                        <FaGithub /> Ver no GitHub
+                    </a>
+                </div>
+
+
             </div>
             <br />
             <section className="py-10 bg-white dark:bg-gray-800 rounded-2xl shadow-lg text-left max-w-3xl mx-auto px-6">
@@ -84,3 +102,5 @@ export default function CSharp() {
         </div>
     );
 }
+
+
