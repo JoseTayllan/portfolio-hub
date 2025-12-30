@@ -163,6 +163,21 @@ export default function ReactNext() {
                     </a>
                 </div>
 
+                <div className="bg-yellow-100 dark:bg-yellow-500 rounded-xl shadow p-6 border-l-4 border-cyan-600">
+                    <h2 className="text-xl font-semibold mb-2">🧠 Missionários e Canibais — Inteligência Artificial</h2>
+                    <p className="text-gray-600 mb-4">
+                        Implementação em Python do problema dos Missionários e Canibais, utilizando busca em largura (BFS) e modelagem de estados para resolver um desafio clássico de Inteligência Artificial e lógica computacional.
+                    </p>
+                    <a
+                        href="https://github.com/JoseTayllan/Missionarios-e-Canibais"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition"
+                    >
+                        <FaGithub /> Ver no GitHub
+                    </a>
+                </div>
+
             </div>
             <br />
             <section className="py-10 bg-white dark:bg-orange-700 rounded-2xl shadow-lg text-left max-w-3xl mx-auto px-6">
