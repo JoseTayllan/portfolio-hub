@@ -67,6 +67,23 @@ export default function CSharp() {
                 </div>
 
 
+                <div className="bg-white dark:bg-purple-800 rounded-xl shadow p-6">
+                    <h2 className="text-xl font-semibold mb-2">Sistema de Controle de Gastos Residenciais</h2>
+                    <p className="text-gray-400 mb-4">
+                     Este projeto foi desenvolvido como teste técnico para Desenvolvedor Full Stack, com o objetivo de implementar um sistema de controle de gastos residenciais, atendendo integralmente aos requisitos propostos.
+
+A solução foi construída com separação clara entre backend (Web API) e frontend (React), aplicando boas práticas, regras de negócio no servidor e uma interface simples, funcional e responsiva.
+                    </p>
+                    <a
+                        href="https://github.com/JoseTayllan/controle-gastos-residenciais"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+                    >
+                        <FaGithub /> Ver no GitHub
+                    </a>
+                </div>
+
             </div>
             <br />
             <section className="py-10 bg-white dark:bg-gray-800 rounded-2xl shadow-lg text-left max-w-3xl mx-auto px-6">
