@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-12 shadow-lg">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-8 px-6 text-center md:text-left">
-        
+
         {/* Foto de perfil */}
         <div className="flex-shrink-0">
           <img
@@ -30,17 +30,21 @@ export default function Header() {
           <h1 className="text-3xl md:text-5xl font-bold mb-2">
             José Tayllan Pinto Almeida
           </h1>
-          <p className="text-lg md:text-2xl font-light">
-            Desenvolvedor <span className="font-semibold">Backend</span> 
-            <span className="text-sm md:text-base"> ( com experiência Full-Stack)</span>
-          </p>
-            <p className="mt-2 text-sm md:text-lg opacity-80 leading-relaxed max-w-xl">
-              Desenvolvedor <span className="font-semibold">Backend</span> apaixonado por tecnologia, com experiência em <span className="font-semibold">C# .NET, Python, PHP, Node.js, TypeScript</span> e bancos de dados | SQL | NoSql. Também atuo como <span className="font-semibold">Full Stack</span>, desenvolvendo aplicações web e mobile com <span className="font-semibold">React.js | Next.js | Angular | Laravel</span> e <span className="font-semibold">React Native</span>.
-              Minha formação teve forte foco em <span className="font-semibold">Inteligência Artificial</span> e <span className="font-semibold">Machine Learning</span>, áreas nas quais desenvolvi diversos projetos práticos e acadêmicos, aplicando técnicas modernas e frameworks como <span className="font-semibold">TensorFlow</span> e <span className="font-semibold">Python</span>.
-              Busco minha primeira oportunidade como <span className="font-semibold">Dev Júnior</span>, onde possa contribuir, aprender e crescer profissionalmente.
-              Tenho projetos publicados no GitHub que demonstram minha capacidade de trabalhar tanto no back-end quanto no front-end, além de interesse em automação (<span className="font-semibold">n8n</span>), inteligência artificial e machine learning.
-            </p>
+          <p className="mt-2 text-sm md:text-lg opacity-80 leading-relaxed max-w-xl">
+            Desenvolvedor <span className="font-semibold">Backend</span> | Especialista em <span className="font-semibold">Integração de Dados & IA</span>.<br /><br />
 
+            Desenvolvedor com foco em soluções de alta performance utilizando <span className="font-semibold">.NET (C#)</span> e <span className="font-semibold">Python</span>.
+            Especialista na construção de arquiteturas escaláveis e na implementação de modelos de
+            <span className="font-semibold"> Machine Learning</span> para automação de processos de negócio.<br /><br />
+
+            Com sólido domínio de <span className="font-semibold">SQL</span> e <span className="font-semibold">NoSQL</span>, atuo na criação de
+            <span className="font-semibold"> APIs robustas</span> e possuo vivência em ambientes
+            <span className="font-semibold"> Full Stack (React / Next.js)</span>.
+            Diferencio-me pela capacidade de traduzir requisitos técnicos em produtos funcionais, unindo o rigor analítico da minha formação em
+            <span className="font-semibold">Inteligência Artificial</span> com as melhores práticas de desenvolvimento de software.<br /><br />
+
+            Pronto para atuar em times ágeis e contribuir imediatamente para a escalabilidade de produtos digitais.
+          </p>
           {/* Barra de stacks */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6 text-3xl">
             <SiNodedotjs className="text-green-500" title="Node.js" />
